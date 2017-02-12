@@ -3,24 +3,24 @@ var connect = require('gulp-connect');
  
 gulp.task('connect', function() {
   connect.server({
-    root: 'src',
+    root: './',
     livereload: true
   });
 });
  
 gulp.task('html', function () {
-  gulp.src('./src/*.html')
+  gulp.src('./*.html')
     .pipe(connect.reload());
 });
 
 gulp.task('css', function () {
-  gulp.src('./src/css/*.css')
+  gulp.src('./css/*.css')
     .pipe(connect.reload());
 });
  
 gulp.task('watch', function () {
-  gulp.watch(['./src/*.html'], ['html']);
-  gulp.watch(['./src/css/*.html'], ['css']);
+  gulp.watch(['./*.html'], ['html']);
+  gulp.watch(['./css/*.html'], ['css']);
 });
  
 gulp.task('default', ['connect', 'watch']);
