@@ -1,0 +1,29 @@
+{
+  "name": "azurebootcamp",
+  "version": "1.0.0",
+  "description": "Sitio web para el Global Azure Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khriztianmoreno/azurebootcamp.git"
+  },
+  "keywords": [
+    "azure",
+    "bootcamp",
+    "avanet",
+    "javascript",
+    "nodejs",
+    "html",
+    "css",
+    "microsoft"
+  ],
+  "author": "Cristian Moreno <khriztianmoreno@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khriztianmoreno/azurebootcamp/issues"
+  },
+  "homepage": "https://github.com/khriztianmoreno/azurebootcamp#readme"
+}
