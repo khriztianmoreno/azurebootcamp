@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/khriztianmoreno/azurebootcamp/issues"
   },
-  "homepage": "https://github.com/khriztianmoreno/azurebootcamp#readme"
+  "homepage": "https://github.com/khriztianmoreno/azurebootcamp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
 }
