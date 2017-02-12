@@ -14,13 +14,13 @@ gulp.task('html', function () {
 });
 
 gulp.task('css', function () {
-  gulp.src('./src/content/*.css')
+  gulp.src('./src/css/*.css')
     .pipe(connect.reload());
 });
  
 gulp.task('watch', function () {
   gulp.watch(['./src/*.html'], ['html']);
-  gulp.watch(['./src/content/*.html'], ['css']);
+  gulp.watch(['./src/css/*.html'], ['css']);
 });
  
 gulp.task('default', ['connect', 'watch']);
